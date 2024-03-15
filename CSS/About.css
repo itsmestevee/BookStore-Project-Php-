@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(220, 220, 220);
+}
+.container-about{
+    height: 405px;
+    width: auto;
+    display: flex;
+    margin-left:5%;
+    margin-right: 5%;
+    
+}
+.about-tabs{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: auto;
+    width: 20%;
+    border: solid 1px #333;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.about-tabs h1{
+    font-size: 20px;
+    font-family: 'Noto Sans Khmer', sans-serif;
+}
+h1.About-title {
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+    font-family: 'Noto Sans Khmer', sans-serif;
+}
+.about-tabs img{
+    margin-top: 10px;
+    height: 110px;
+    width: 110px;
+    object-fit: cover;
+}
+.about-tabs p{
+    text-wrap: wrap;
+    height: 50%;
+}
+.circular--square { border-radius: 50%; border: solid 2px black; background-color: rgb(193, 193, 193); }

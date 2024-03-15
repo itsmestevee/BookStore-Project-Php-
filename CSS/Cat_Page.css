@@ -1,0 +1,35 @@
+.categories-container{
+    height: 90.5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    background-color: rgb(223, 223, 223);
+
+}
+.categories-box{
+    margin-left: 15%;
+    margin-right: 15%;
+    position: relative;
+
+    width: 430px;
+    height: 80px;
+    margin-top: 15px;
+    background-color: rgb(91, 91, 91);
+    border: solid 1px white;
+}
+.categories-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.categories-box h1{
+    position: absolute;
+    font-size: 18px;
+    font-family: 'Noto Sans Khmer';
+    border-bottom: solid 1px black;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(44deg, black, transparent);
+    bottom: 0;
+}
+

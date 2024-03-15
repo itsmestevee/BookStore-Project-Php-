@@ -1,0 +1,45 @@
+table {
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+img {
+    max-width: 100px;
+    max-height: 100px;
+}
+.top-container{
+    position: relative;
+}
+.top-container h1{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background-color: #333;
+}
+.logout a{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: white;
+}
+.addnew a{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    color: white;
+}

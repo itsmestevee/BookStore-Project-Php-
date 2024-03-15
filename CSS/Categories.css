@@ -1,0 +1,26 @@
+
+.container-Categories{
+    height: 600px;
+    width: auto;
+    border: solid 1px #dfdfdf;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+.title{
+    padding: 12px;
+    border-bottom: solid 2px grey;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.title h1{
+    font-family: 'Noto Sans Khmer', sans-serif;
+    font-size: 20px ;
+}
+.list-categories li{
+    padding: 8px;
+    font-family: 'Noto Sans Khmer', sans-serif;
+}
+.list-categories a{
+    color: rgb(111, 111, 111);
+}

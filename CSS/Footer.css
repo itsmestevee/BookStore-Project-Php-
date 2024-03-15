@@ -1,0 +1,87 @@
+
+.container-footer{
+    position: relative;
+    background-color: #333;
+    height: 230px;
+}
+.content {
+    margin: 0;
+    font-family: 'Noto Sans Khmer', sans-serif;
+    padding: 10px;
+    color: white;
+
+}
+.content img{
+    margin-left:20px ;
+}
+.content p{
+    width: 27%;
+    text-wrap: wrap;
+    margin-left: 20px;
+    font-size: 15px;
+}
+.content h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.Contact{
+    position: absolute;
+    top: 20px;
+    left: 800px;
+    font-family: 'Noto Sans Khmer', sans-serif;
+}
+.Contact a, .pages a, .Other a{
+    color: rgb(255, 255, 255);
+}
+.Contact h1, .pages h1, .Other h1, .Subscribe h1{
+    color: rgb(255, 255, 255);
+    font-size:15px ;
+    border-bottom: solid 1px white;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.pages{
+    position: absolute;
+    top: 20px;
+    left: 600px;
+    font-family: 'Noto Sans Khmer', sans-serif;
+}
+
+.Other {
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+    font-family: 'Noto Sans Khmer', sans-serif;
+}
+
+.pages li, .Contact li, .Other li{
+    font-size: 15px;
+    margin: 10px;
+}
+.Subscribe{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+.Subscribe button{
+    padding: 5px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius:3px;
+}
+input[type="text"]{
+    background-color: transparent;
+    border: solid 1px white;
+    padding: 8px;
+}
+footer {
+    background-color: #333;
+    color: #acacac;
+    text-align: right;
+    padding: 10px;
+    width: 100%;
+    font-family: 'Noto Sans Khmer', sans-serif;
+}

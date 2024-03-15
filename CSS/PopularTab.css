@@ -1,0 +1,95 @@
+.container-book {
+    height: auto;
+    margin: 25px;
+    /* border-bottom: solid 1px rgb(167, 165, 165); */
+}
+
+.Book-Title {
+    font-family: 'Noto Sans Khmer', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: solid 2px grey;
+    border-top: solid 2px grey;
+}
+
+.book-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 23px;
+    margin-bottom: 20px;    
+    margin-left: 30px;
+}
+
+.image-container img{
+    height: 280px;
+}
+
+.box-book {
+    flex: 0 0 calc(33.33% - 20px);
+    max-width: calc(33.33% - 132px);
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+
+.box-book:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.img-cover {
+    max-width: 100%;
+    height: auto;
+    /* border-radius: 4px; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: solid 1px black;
+}
+
+.Title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.price {
+    color: orange;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.Author{
+    color: #626262;
+}
+
+.addtocart button {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 90%;
+}
+.more-books{
+    flex: 0 0 calc(33.33% - 20px);
+    max-width: calc(33.33% - 132px);
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+.more-books i{
+    margin-top: 50%;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    padding: 47px 0;
+    width: 100px;
+    height: 100px;
+    
+}
+.more-books i:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 10px 5px 5px rgb(200, 200, 200);
+}

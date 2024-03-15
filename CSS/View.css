@@ -1,0 +1,98 @@
+.view-container{
+    height: 520px;
+    border: solid 1px rgb(255, 255, 255);
+    margin-left: 5%;
+    padding: 10px;
+    margin-right: 5%;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 500px auto;
+    box-shadow:0 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cover-view{
+    grid-column-end: 2;
+    grid-column-start: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.info-view{
+    grid-column-end: 3;
+    grid-column-start: 2;
+    margin-left: 25px;
+}
+.cover-view img{
+    height: 500px;
+    width: 90%;
+}
+.title-view{
+    height: auto;
+    width: 70%;
+    margin-bottom: 20px;
+    text-wrap: wrap;
+}
+.title-view h1{
+    font-size: 24px;
+    font-family: 'Noto Sans Khmer', sans-serif;
+    font-weight: bold;
+}
+.author-view{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.author-view h1{
+    font-size: 15px;
+    font-family: 'Noto Sans Khmer', sans-serif;
+    font-weight: 200;
+}
+.catg-view{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.catg-view h1{
+    font-size: 15px;
+    font-family: 'Noto Sans Khmer', sans-serif;
+    font-weight: 200;
+}
+.price-view{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.price-view{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.stock-view{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.stock-view h1{
+    font-size: 15px;
+    font-family: 'Noto Sans Khmer', sans-serif;
+    font-weight: bold;
+}
+.addtocart{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.addtocart button{
+    width: 250px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+.desc-view{
+    height: auto;
+    width: 70%;
+    text-wrap: wrap;
+}
+.desc-view p{
+    font-size: 17px;
+    font-family: 'Noto Sans Khmer', sans-serif;
+    font-weight: 300;
+}
+input[type="number"]{
+    margin-bottom: 20px;
+    width: 15%;
+}

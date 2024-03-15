@@ -1,0 +1,49 @@
+.Arrival-container{
+    height: auto;
+    margin: 23px;
+    border-bottom: solid 1px rgb(167, 165, 165);
+    width: 100%;
+    
+}
+.Arrival-Tittle{
+    font-family: 'Noto Sans Khmer', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: solid 2px grey;
+    border-top: solid 2px grey;
+}
+.Arrival-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 73px;
+    margin-bottom: 20px;
+}
+.Arrival-box{
+    height: 275px;
+    width: 20%;
+    border: solid 1px rgb(167, 165, 165);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.Arrival-box:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+.Arrival-box img{
+    height: 100%;
+    width: 100%;
+}
+.Arrival-box h1{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-family: 'Noto Sans Khmer', sans-serif;
+    padding: 0 20px 0 20px;
+}
