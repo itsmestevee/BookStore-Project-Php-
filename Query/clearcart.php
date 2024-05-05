@@ -11,7 +11,7 @@ if ($deleteResult) {
 }
 
 if (isset($_GET['redirect']) && $_GET['redirect'] === 'home') {
-    header('Location: ../Home.php');
+    header('Location: ../index.php');
     exit();
 }
 

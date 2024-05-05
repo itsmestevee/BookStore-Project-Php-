@@ -18,7 +18,7 @@
         if($_POST['Email'] === 'Admin' && $_POST['password'] === '321321'){
             header('Location: ../Edit.php');
         } else {
-            header('Location: ../Home.php');
+            header('Location: ../index.php');
         }
     } else {
         echo '<script>alert("Login unsuccessful");</script>';

@@ -14,7 +14,7 @@
         </div>
         <div class="pages">
             <h1>Pages</h1>
-            <a href="Home.php"><li>Home</li></a>
+            <a href="index.php"><li>Home</li></a>
             <a href="Explore.php"><li>Explore Books</li></a>
             <a href="Categories.php"><li>Categories</li></a>
             <a href=""><li>About</li></a>

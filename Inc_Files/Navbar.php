@@ -9,11 +9,11 @@
 <body>
     <div class="container">
         <div class="logo">
-            <a href="Home.php"><img src="img/logo.png" alt="" height="50px"></a>
+            <a href="index.php"><img src="img/logo.png" alt="" height="50px"></a>
         </div>
         <div class="nav-container">
             <ul>
-                <li><a href="Home.php">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="Explore.php">Explore Books</a></li>
                 <li><a href="Categories.php">Categories</a></li>
                 <li><a href="About.php">About</a></li>
